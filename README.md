@@ -111,7 +111,7 @@ e fora da pasta src, armazenando ela como input.mps.
 
 ### 4 Geração das Próximas Gerações:
 
-  - Com base no número de gerações informado pelo usuário, o programa calcula e salva as próximas gerações do Jogo da Vida em um arquivo de relatório.
+  - Com base no número de gerações informado pelo usuário, o programa calcula e salva as próximas gerações do Jogo da Vida no arquivo de relatório "geracoes.mps".
   - Cada nova geração é produzida seguindo as regras do jogo, utilizando a matriz da geração anterior como referência.
   - O processo é repetido até que o número desejado de gerações seja alcançado.
   
@@ -130,6 +130,6 @@ O arquivo makefile disponibilizado pelo professor Michel realiza os comandos que
 |make 	        |Executa a compilação do programa utilizando o gcc e o resultado vai para a pasta build |
 |make run 	    |Executa o programa da pasta build após a realização da compilação      
 
-##CONCLUSÃO
+## CONCLUSÃO
 
   O programa atende aos requisitos do trabalho, incluindo a manipulação de matrizes, controle de fluxo, leitura e escrita em arquivos, e a implementação das regras do Jogo da Vida. A estrutura do código é organizada e modular, facilitando a compreensão e manutenção do código.
